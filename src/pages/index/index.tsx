@@ -1,3 +1,9 @@
+/*
+ * @Author: shenzhiwei
+ * @Date: 2021-03-22 15:53:53
+ * @Company: orientsec.com.cn
+ * @Description: 首页视图
+ */
 import { Component } from 'react'
 import { View, Text } from '@tarojs/components'
 import { AtButton } from 'taro-ui'
@@ -20,12 +26,8 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>Hello world!</Text>
-        <AtButton type='primary'>I need Taro UI</AtButton>
-        <Text>Taro UI 支持 Vue 了吗？</Text>
-        <AtButton type='primary' circle={true}>支持</AtButton>
-        <Text>共建？</Text>
-        <AtButton type='secondary' circle={true}>来</AtButton>
+        <Text>Hello Fastman3!</Text>
+        <AtButton type='primary'>I need Fastman3 UI</AtButton>
       </View>
     )
   }
