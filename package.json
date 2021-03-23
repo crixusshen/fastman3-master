@@ -1,8 +1,8 @@
 {
-  "name": "fastman3-master-clone",
+  "name": "fastman3-master",
   "version": "1.0.0",
   "private": true,
-  "description": "project for fastman3",
+  "description": "a master project for fastman3",
   "templateInfo": {
     "name": "taro-ui",
     "typescript": true,

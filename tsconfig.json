@@ -24,7 +24,8 @@
       "global.d.ts"
     ],
     "paths": {
-      "@assets": ["src/assets"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/pages/*": ["./src/pages/*"],
     }
   },
   "exclude": [

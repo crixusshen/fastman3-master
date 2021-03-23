@@ -1,5 +1,13 @@
+/*
+ * @Author: shenzhiwei
+ * @Date: 2021-03-22 15:53:53
+ * @Company: orientsec.com.cn
+ * @Description: 主编译配置
+ */
+const path = require('path');
+
 const config = {
-  projectName: 'fastman3-master-clone',
+  projectName: 'fastman3-master',
   date: '2021-3-22',
   designWidth: 750,
   deviceRatio: {
@@ -59,6 +67,10 @@ const config = {
         }
       }
     }
+  },
+  alias: {
+    '@/assets': path.resolve(__dirname, '..', 'src/assets'),
+    '@/pages': path.resolve(__dirname, '..', 'src/pages'),
   }
 }
 

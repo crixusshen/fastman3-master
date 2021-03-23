@@ -4,8 +4,6 @@
  * @Company: orientsec.com.cn
  * @Description: 全局类型配置
  */
-export {}; // 这个必须有，将文件转化为模块
-
 declare module '*.png'
 declare module '*.gif'
 declare module '*.jpg'
