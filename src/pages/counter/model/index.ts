@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2021-03-23 08:23:42
  * @Company: orientsec.com.cn
- * @Description: counter 业务逻辑层
+ * @Description: counter 业务逻辑
  */
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";

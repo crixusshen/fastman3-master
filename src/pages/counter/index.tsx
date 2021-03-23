@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2021-03-22 18:07:24
  * @Company: orientsec.com.cn
- * @Description: 计数页面层
+ * @Description: counter 视图组件
  */
 import React, { Component } from 'react';
 import { connect } from 'react-redux'

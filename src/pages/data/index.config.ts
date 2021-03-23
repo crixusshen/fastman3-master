@@ -1,11 +1,11 @@
 /*
  * @Author: shenzhiwei
- * @Date: 2021-03-22 18:06:59
+ * @Date: 2021-03-23 10:19:57
  * @Company: orientsec.com.cn
- * @Description: counter 页面配置
+ * @Description: data 页面配置
  */
 export default {
-  navigationBarTitleText: '计数',
+  navigationBarTitleText: '数据',
   enablePullDownRefresh: true,
   backgroundTextStyle: 'dark',
 }

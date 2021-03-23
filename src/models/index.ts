@@ -5,5 +5,6 @@
  * @Description: 全局 models 配置，后续计划采用 umi 进行改造
  */
 import counter from '@/pages/counter/model';
+import data from '@/pages/data/model';
 
-export default [counter];
+export default [counter, data];

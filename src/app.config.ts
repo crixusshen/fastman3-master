@@ -7,7 +7,8 @@
 export default {
   pages: [
     'pages/index/index',
-    'pages/counter/index'
+    'pages/counter/index',
+    'pages/data/index',
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -33,12 +34,12 @@ export default {
         iconPath: './assets/counter.png',
         selectedIconPath: './assets/counter-select.png',
       },
-      // {
-      //   pagePath: 'pages/data/index',
-      //   text: '数据',
-      //   iconPath: './assets/data.png',
-      //   selectedIconPath: './assets/data-select.png',
-      // },
+      {
+        pagePath: 'pages/data/index',
+        text: '数据',
+        iconPath: './assets/data.png',
+        selectedIconPath: './assets/data-select.png',
+      },
       // {
       //   pagePath: 'pages/map/index',
       //   text: '地图',
