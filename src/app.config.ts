@@ -2,7 +2,7 @@
  * @Author: shenzhiwei
  * @Date: 2021-03-22 15:53:53
  * @Company: orientsec.com.cn
- * @Description:
+ * @Description: 全局配置项
  */
 export default {
   pages: [

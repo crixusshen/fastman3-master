@@ -44,6 +44,7 @@
     "dva-core": "^2.0.4",
     "dva-immer": "^0.5.2",
     "dva-loading": "^3.0.22",
+    "dva-model-extend": "^0.1.2",
     "lodash": "4.17.15",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
