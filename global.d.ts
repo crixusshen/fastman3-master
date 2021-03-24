@@ -101,3 +101,6 @@ declare type DvaSetupParams = {
 	dispatch: Dispatch
 	history: History
 }
+
+declare interface CommonProps {
+}
