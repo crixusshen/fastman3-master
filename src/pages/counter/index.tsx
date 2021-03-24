@@ -56,9 +56,12 @@ const Counter: FC<CounterProps> = (props) => {
           title="计数-状态管理"
           thumb="http://img10.360buyimg.com/jdphoto/s72x72_jfs/t5872/209/5240187906/2872/8fa98cd/595c3b2aN4155b931.png"
         >
-          <Text>Count: {count}</Text>
-          <br/>
-          <Text>Node: {node}</Text>
+          <View>
+            <Text>Count: {count}</Text>
+          </View>
+          <View>
+            <Text>Node: {node}</Text>
+          </View>
           <AtButton
             size="small"
             circle={true}
