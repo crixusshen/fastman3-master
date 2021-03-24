@@ -5,7 +5,6 @@
  * @Description: counter 视图组件
  */
 import React, { FC, useState, useEffect } from 'react';
-// import { connect } from 'react-redux'
 import { useSelector, useDispatch } from 'react-redux';
 import { View, Text } from '@tarojs/components';
 import { AtButton, AtCard } from 'taro-ui';
@@ -27,6 +26,9 @@ const Counter: FC<CounterProps> = (props) => {
   const count = useSelector((state: any) => state.counter.count);
   const dispatch = useDispatch();
 
+  // 声明组件本身的数据状态维护
+  const [node, setNode] = useState(3);
+
   // 替代 componentDidMount 和 componentDidUpdate
   useEffect(() => {
     console.log("Counter useEffect init dispatch")
@@ -41,6 +43,7 @@ const Counter: FC<CounterProps> = (props) => {
    * @param e 点击对象
    */
   const onClickMinus = (e) => {
+    setNode(node - 1);
     dispatch({
       type: 'counter/decrement'
     });
@@ -54,6 +57,8 @@ const Counter: FC<CounterProps> = (props) => {
           thumb="http://img10.360buyimg.com/jdphoto/s72x72_jfs/t5872/209/5240187906/2872/8fa98cd/595c3b2aN4155b931.png"
         >
           <Text>Count: {count}</Text>
+          <br/>
+          <Text>Node: {node}</Text>
           <AtButton
             size="small"
             circle={true}
